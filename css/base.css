@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,div,table,tr,td,h1,h2,h3,h4,h5,ul,li,dl,dt,dd,span,a,input,img,span{ margin:0 auto; text-decoration:none; font-family:"微软雅黑",Arial, Helvetica, sans-serif,"宋体"; font-size:12px; color:#666;}
+ul,dl,dd{ margin:0; padding:0;}
+ul{ list-style:none;}
+a{ text-decoration:none;}
+a:hover{ color:; text-decoration:underline;}
+.wrapper{ background:url(../images/index_bg.jpg) repeat-x; overflow:hidden;}
+.container{ width:960px; overflow:hidden;}
+.headerLayer{ height:90px; background:url(../images/head_bg.jpg) repeat-x;}
+.header{ padding-top:13px; width:960px; }
+.header .top{ margin-bottom:13px; height:36px;}
+.header .top .logo{ width:155px; height:36px; background:url(../images/logo.png) no-repeat; cursor:pointer; float:left;}
+.header .top .searchLayer{ margin-top:6px; margin-left:310px; width:495px;background:url(../images/search_bg.jpg) right center no-repeat; float: left; display:inline; clear:right;}
+.header .top .searchLayer span{ margin-top:4px; width:326px; text-align:right; float:left; display:inline-block;}
+.header .top .searchLayer span a{ font-size:12px; color:#666;}
+.header .top .searchLayer span a:hover{ color:#da251d; text-decoration:underline;}
+.header .top .searchLayer .keywords{ width:140px; _width:136px; height:23px; line-height:23px; border:none; background:none; float:left; display: inline-block;}
+.header .top .searchLayer .subBtn{ margin-top:1px; margin-right:1px; width:26px; height:23px; border:none; float:left; display: inline-block;}
+.nav{ height:28px; background:url(../images/nav_bg.jpg) no-repeat; list-style:none;}
+.nav li{ margin-right:16px; margin-left:15px; width:105px; line-height:28px; text-align:center; position:relative; z-index:998; float:left; display:inline;}
+.nav li a{ font-size:14px; font-weight:bold; color:#333; font-family:"微软雅黑",Arial, Helvetica, sans-serif,"宋体"; display: block;}
+.nav li a:hover{ color:#fff;}
+.nav li.navHere{background:#da251e;}
+.nav li.navHere a{ color:#fff;}
+.nav li.navHere ul.navMenu a{ background:none;}
+#nav li ul.navMenu{position:absolute; z-index:1000; margin:0; padding:0; list-style:none; background:#da251e; width:105px; text-align:left; left:0; display: none;}
+#nav li ul.navMenu li{ _height:30px; margin:0; padding-left:20px;background:none; width:85px;}
+#nav li.navHere ul.navMenu{ display:block;}
+#nav li.navHere ul.navMenu li{ margin:0; display:block; _height:30px; padding-left:20px;background:none; border-bottom:none; width:95px;}
+#nav li ul.navMenu li a{color:#fff; text-decoration:none; margin-left:0; font-size:12px; line-height:30px; text-align:left; font-weight:normal; padding:0; display:block;}
+#nav li ul.navMenu li a:hover{ line-height:30px; color:#fff; text-decoration:underline;}
+#nav li.navLi ul.navMenu li a{ color:#fff; text-decoration:none; margin-left:0; font-size:14px; line-height:35px; text-align:left; font-weight:normal; padding:0; display:block;}
+#nav li.navLi ul.navMenu li a:hover{ line-height:35px; color:#fff; text-decoration:underline;}
+/*#nav li ul.navMenu li ul.subNav{ position:absolute; display:block;}*/
+#nav li.navHere ul.navMenu li ul.subNav li{ padding-left:4px; width:110px; /*border-bottom:#e7e7e7 1px solid;*/ float:left;}
+#nav li.navHere ul.navMenu li ul.subNav li.navHere{ padding-left:0px;}
+#nav li.navHere ul.navMenu li ul.subNav li a{ font-size:12px;}
+#nav li.navHere ul.navMenu li ul.subNav li.subNavLi{ padding-left:5px; border-bottom:none;}
+#nav li.navHere ul.navMenu li ul.subNav li.navHere ul.thirdNav{ padding-left:19px;}
+#nav li.navHere ul.navMenu li ul.subNav li ul.thirdNav{ padding-left:15px;}
+
+.bottom{ height:30px; line-height:30px; font-size:12px; color:#fff; background:#4b4b4b; width:970px;}
+.bottom a{ color:#fff;}
+.bottom a:hover{ text-decoration:;}
+.bottom span{ float:right; color:#fff; display:inline; margin-right:20px;}

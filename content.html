@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>盈和德科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+<body>
+    <!--Header-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/ffz.js"></script>
+    <script type="text/javascript" src="data/products.js"></script>
+    <div class="headerLayer">
+        <div class="header">
+            <div class="top">
+                <div class="logo"></div>
+                <div class="searchLayer">
+                    <span><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>&nbsp;&nbsp;</span>
+                    <input class="keywords" id="keywords" name="keywords" type="text" value="输入关健字" onfocus="javascript:if(this.value==&#39;输入关健字&#39;)this.value=&#39;&#39;;" onblur="javascript:if(this.value==&#39;&#39;)this.value=&#39;输入关健字&#39;">
+                    <input class="subBtn" type="image" src="images/subBtn.jpg" onclick="">
+                </div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a title="首页" href="index.html">首页</a> </li>
+                <li class=""><a title="公司简介" href="content.html">关于我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="产品中心" href="product.html">产品中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="服务与支持" href="content.html">服务与支持</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="人力招聘" href="content.html">人力招聘</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="联系我们" href="content.html">联系我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">联系我们</a></li>
+                        <li><a href="#">留言反馈</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#nav li").hover(function () {
+                $(this).children("ul.navMenu").slideDown();
+                $(this).addClass("navHere");
+            }, function () {
+                $(this).children("ul.navMenu").slideUp();
+                $(this).removeClass("navHere");
+            });
+        });
+    </script>
+    <!--Header End-->
+    <div class="wrapper">
+        <div class="subBanner">
+            <img alt="banner" src="images/aboutBanner.jpg"></div>
+        <div class="container">
+            <div class="main">
+                <div class="leftSide">
+                    <ul class="menu">
+                        <li class="title">走进某某</li>
+                        <li><a href="images/xx.htm">公司简介</a></li>
+                        <li><a href="#">某某里程碑</a></li>
+                        <li><a href="#">品牌文化</a></li>
+                        <li><a href="#">社会责任</a></li>
+                        <li><a href="#">荣誉奖项</a></li>
+                    </ul>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="常见问题" src="images/question_img.jpg"></a>
+                    </div>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="联系我们" src="images/contact_img.jpg"></a>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt; 走进某某 &gt; 公司简介</span></div>
+                    <div class="titleBar">公司简介</div>
+                    <div class="content">
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">深圳某某文化科技集团是一家集投影技术研发、高端制造和新媒体文化创意、数字科技、连锁院线于一体的文化科技集团公司，公司创立于1998年5月，是全球领先的微显示投影技术研发、高端制造和系统集成方案提供商，也是目前全球唯一一家同时拥有DLP、LCD和LCoS三项技术的研发和制造能力的企业。某某在投影机、背投电视以及商用平板电视、大屏幕超短焦激光投影电视等领域都确立了技术和制造的领先地位。同时，通过旗下某某品牌的成功运营和兼并国际品牌，建立了稳固的全球销售和服务网络，产品在全球100多个国家被广泛应用于教育、商务、家庭、公共娱乐、政府、企业等领域。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">10多年来，某某在文化建设、技术创新、知识产权、市场消费、行业成就、综合品牌6个领域都硕果累累，取得国家级资质和荣誉100多项。目前在全国已经拥有4家分公司、20多个办事处以及700多个经销商。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">深圳某某的管理、研发和文化创意团队，特点是国际化、高学历，并兼备国内外著名企业高管经验，从而实现了企业不断创新，不断提升国际竞争力的能力。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">企业目前拥有员工近千人，其中主力研发人员占30%。本科以上学历占比70%，硕士以上15%，整体特点是知识密集型企业。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">某某拥有国际顶尖的研发团队，核心技术和行业地位令国外同行震惊和敬畏。截止2011年10月份，某某共拥有专利技术120多项，其中100多项是全球一流的关键技术发明专利，研发能力处于世界前列。2012年，某某品牌和市场份额排名全球第六，成为国内唯一与世界五百强企业平等竞争，并不断超越的投影企业。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">集团创始人、董事长兼总裁谢敬，先后被评为中国和谐社会杰出企业家、全国经济十大风云人物、中国信息产业年度经济人物、广东十大创新人物和广东省优秀企业家。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">从汉朝的中国皮影到中国民族产业的第一投影，某某将创意、科技、文化相融合，希望将中国的光影技术传递到世界各国，期望用最美的光与影来驱散人们生活中的平淡。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;"><strong>某某的优势</strong></span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">战略超前，执行专注，敢于超越 &nbsp;卓越源于专注，某某心无旁骛的投身于微显示领域，将其全部资源和精力投入到微显示领域里的研发和制造，使其成为真正拥有核心技术和专业制造体系的行业翘楚。金融危机期间，某某更是加大投入，抓住机会，实现了弯道超车，一举超越了众多世界知名品牌，成为当今全球领先的投影机供应商。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">精于技术，长于研发，富于积累 &nbsp;某某的产品研发始于公司成立前的两年，即1996年。在长期的产品开发中，某某积累了丰富的经验，成功的在DLP、LCD和LCoS三个技术平台上开发出了累计超过200款前投影机、背投电视和平板电视产品。拥有上百项专利技术，是全球领先的微显示投影产品技术的提供商。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">制造领先，品质卓越，竞争不败 &nbsp;在激烈的市场竞争中，大量没有自己的制造系统的中小品牌，甚至世界级的品牌被淘汰出局。某某凭借其全球领先的投影机专业制造系统，和严格的品质管控体系，在全球投影机行业中不断超越，确立了无法撼动的地位。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">深耕品牌，文化积淀，国之翘楚 &nbsp;经过十六年的艰勤耕耘，某某已成为中国投影机第一品牌，和世界顶级品牌当仁不让地分庭抗礼。某某品牌不仅代表了某某产品技术领先、品质可靠、物美价优的特性，也反映了某某艰苦奋斗、百折不挠的创业精神和求新求变、敢为人先的创新态度。多年培育的强势品牌一定会在某某未来的发展中成为强大的助推器。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">以人为本，凝聚智慧，飞跃巅峰 &nbsp;21世纪的竞争是人才的竞争。某某在长期的耕耘中培养了一支专业的技术和管理团队，同时，大量优秀的人才还在不断的被某某吸引，趋之若鹜。在某某以人为本的企业文化氛围中，这支精英团队团结协作，共同奋斗，正在将某某推向微显示行业的巅峰。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;"><strong>某某的产品</strong></span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">产品线丰富 &nbsp;某某在DLP、LCD和LCoS平台上精心打造的全系列产品拥有卓越的品质和广泛的适用性，产品涵盖从SVGA到1080P的各种分辨率，从2000流明到10000流明的各个亮度区间，常规焦距到超短焦的各种投射方式，以及传统光源和新光源的各种组合，为从个人用户到办公、教室、甚至电影院的不同使用者提供最佳的视觉解决方案。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">特点突出，性能卓越 &nbsp;除了针对不同用户需求的个性化设计外，某某产品具有一些共同的特点。比如，某某的产品都很注重色彩的处理，应用了某某自己的专用图像色彩处理系统，为用户提供完美的色彩体验；同时，某某非常重视产品安全，因此，所有某某的产品在安全设计上都很完善，尤其是在对灯泡的保护方面可为慎之又慎；作为投影机的核心问题之一，散热设计是某某产品的一大优势，某某自主知识产权的“风神”散热系统使散热效率提高50%，同时还为适应高海拔地区的用户能正常使用某某的产品而设计了高海拔散热模式；以及双路防尘网、顶置或前置灯泡更换、关机冷却时间自由调节、丰富的接口等等设计都是某某产品高性能的共同特征。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;"><strong>某某的业务</strong></span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">业务形态丰富 &nbsp;某某通过多品牌战略，在全球建立了自己的营销和服务网络，并以其雄厚的研发实力和制造能力向全球品牌客户提供OEM/ODM服务。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">品牌市场占有率不断提升 &nbsp;某某品牌是目前中国大陆唯一的数字投影机自主品牌。IDC数据显示，2010年第四季度某某在中国市场所占有的份额为9%，名列第五。2010年全年销量较2009年增长3倍，在行业市场和渠道市场均取得良好业绩。某某品牌也在东南亚、中东、南美、非洲等地区获得广泛认同，在这些国家的政府招标中屡屡获得成功。ASK Proxima是某某通过资本运作增加的具有全球知名度的又一强势品牌，在微显示投影行业内有着悠久的历史。某某秉承了ASK Proxima技术先进、制造精良的传统，完善和扩充了原有的全球销售和服务体系，使这个经典的投影机品牌重新焕发出青春，在全球的销售呈现迅猛增长。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;">全球微显示行业主要OEM/ODM供应商 &nbsp;凭借优秀的品质和快速的响应，某某成为了众多投影机品牌的OEM/ODM供应商。这些品牌里有世界知名的大品牌，也有地区性的强势品牌。他们来自全球各地，又将某某为他们生产的产品销往世界各地。某某以其全系列的DLP、LCD和LCoS产品为客户提供一站式服务。客户不需要再为不同的机型去寻找不同的供应商，为客户的商业运作带来极大的便利和成本的节约。</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;"><strong>某某的愿景、价值观<strong style="line-height: 21px; white-space: normal; font-size: 14px;">与使命</strong></strong></span>
+                        </p>
+                        <p>
+                            <span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">愿景：</span><span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">成为影像领域的国际领先企业</span>
+                        </p>
+                        <p>
+                            <span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">使命：</span><span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">为顾客创造一流的视觉体验</span><br>
+                            <span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 为员工创造一流的发展空间</span><br>
+                            <span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">价值观：</span><span style="line-height: 2; font-family: Microsoft YaHei; font-size: 14px;">创新、融合、专业、敬业</span>
+                        </p>
+                        <p>
+                            <span style="font-family: Microsoft YaHei; font-size: 14px;"></span>&nbsp;<span style="font-family: Microsoft YaHei; font-size: 14px;">某某，以其非凡的勇气和坚忍不拔的精神，在强手林立的微显示投影技术领域不懈努力、勇于开拓、后来居上，正在成为行业里引领时代的新弄潮儿。在强大的技术力量和完善的管理体系支撑下，某某真诚的为您提供全方位的产品研发和制造服务，同时也热诚欢迎您加入某某品牌和ASK Proxima品牌的运作，成为我们的战略伙伴。</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

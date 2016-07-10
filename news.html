@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>盈和德科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+
+<body>
+    <!--Header-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/ffz.js"></script>
+    <script type="text/javascript" src="data/products.js"></script>
+    <div class="headerLayer">
+        <div class="header">
+            <div class="top">
+                <div class="logo"></div>
+                <div class="searchLayer">
+                    <span><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>&nbsp;&nbsp;</span>
+                    <input class="keywords" id="keywords" name="keywords" type="text" value="输入关健字" onfocus="javascript:if(this.value==&#39;输入关健字&#39;)this.value=&#39;&#39;;" onblur="javascript:if(this.value==&#39;&#39;)this.value=&#39;输入关健字&#39;">
+                    <input class="subBtn" type="image" src="images/subBtn.jpg" onclick="">
+                </div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a title="首页" href="index.html">首页</a> </li>
+                <li class=""><a title="公司简介" href="content.html">关于我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="产品中心" href="product.html">产品中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="服务与支持" href="content.html">服务与支持</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="人力招聘" href="content.html">人力招聘</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="联系我们" href="content.html">联系我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">联系我们</a></li>
+                        <li><a href="#">留言反馈</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#nav li").hover(function () {
+                $(this).children("ul.navMenu").slideDown();
+                $(this).addClass("navHere");
+            }, function () {
+                $(this).children("ul.navMenu").slideUp();
+                $(this).removeClass("navHere");
+            });
+        });
+    </script>
+    <!--Header End-->
+    <div class="wrapper">
+        <div class="subBanner">
+            <img alt="banner" src="images/newsBanner.jpg"></div>
+        <div class="container">
+
+            <div class="main">
+                <div class="leftSide">
+                    <ul class="menu">
+                        <li class="title">新闻中心</li>
+
+                        <li>
+                            <a href="#">某某新闻</a>
+                        </li>
+
+                        <li>
+                            <a href="#">产品资讯</a>
+                        </li>
+
+                        <li>
+                            <a href="#">优惠活动</a>
+                        </li>
+
+                    </ul>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="常见问题" src="images/question_img.jpg"></a>
+                    </div>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="联系我们" src="images/contact_img.jpg"></a>
+                    </div>
+
+                </div>
+                <div class="rightSide">
+                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt;  &gt; 新闻中心 </span></div>
+                    <div class="titleBar">
+                        新闻中心
+            
+                    </div>
+                    <div class="content">
+                        <ul class="infoList">
+                            <!--取得一个DataTable-->
+                            <!--取得分页页码列表-->
+
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img alt="ASK Proxima全系列产品亮相美国InfoComm2014" src="images/201406251016011159.jpg"></a>
+                                <dl>
+                                    <dt><span>2014-06-25</span><a href="#">ASK Proxima全系列产品亮相美国InfoComm2014</a></dt>
+                                    <dd>为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等…</dd>
+                                </dl>
+                            </li>
+
+                        </ul>
+                        <div class="cutPage"><span class="disabled">«上一页</span><span class="current">1</span></div>
+                        <!--放置页码列表-->
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

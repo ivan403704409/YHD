@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.infoList{ margin:0; padding:0; margin-top:25px; list-style:none; overflow:hidden;}
+.infoList li{ margin:0; height:95px; padding-bottom:10px; margin-bottom:15px; color:#757575; border-bottom:#d6d6d6 1px dotted; overflow:hidden;}
+.infoList li span{ color:#757575; float:right;}
+.infoList li a{color:#666;}
+.infoList li a:hover{color:#da251d; text-decoration:underline;}
+.infoList li img{ width:130px; height:82px; border:#d6d6d6 1px solid; float:left;}
+.infoList li span{ font-weight:normal; color:#757575; float:right;}
+.infoList li dl{ margin:0; padding:0; width:555px; height:95px; margin-left:10px; float:left; display:inline;}
+.infoList li dl dt{ font-weight:bold; height:18px; line-height:18px;}
+.infoList li dl dt a{ color:#666;}
+.infoList li dl dt a:hover{color:#da251d; text-decoration:underline;}
+.infoList li dl dd{ margin:0; padding:0; margin-top:5px; line-height:18px;}
+.h4{ margin-top:5px; height:30px; line-height:30px; background:#f8f8f8; font-size:12px; font-weight:bold; text-align:center;}
+#news_title { font-size: 22px; font-weight: normal; margin-bottom: 15px; text-align: center; }
+.date_i { font-style: normal; color: #999; text-align: center; display: block; margin: 0 0 15px 0; }
+
+/* News Next,pre
+----------------------------------------------------------------- */
+.p_n_b { _width:700px; height: 30px;line-height: 30px; margin-top: 30px; padding-right: 15px; padding-left: 15px; overflow:hidden;}
+.p_n_b a {display: inline; height: 28px;margin-bottom: 20px; }
+.previous {  float: left; }
+.back { text-align: center; }
+.next { text-align: right;  float: right; }
+
+/*Download Css*/
+.down_list h3{ margin:10px 0 0 0; padding:0; clear:both; font-size: 14px; line-height: 30px; border-bottom: 1px solid #ccc; }
+.down_list ul{ margin: 0; padding: 10px; list-style: none; }
+.down_list li{ margin: 0; padding: 0 0 0 30px; line-height: 30px; background: url(../images/icon_down.gif) no-repeat left center; }
+.down_list li span{ float: right; }
+.down_list li i{ margin-left: 10px; font-style: normal; color: #666; }

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/* container */
+.banner{ width:960px; height:380px; overflow:hidden;}
+.banner img{ border:none;}
+/*Scroll News*/
+.scrollWrapp{ height:31px; line-height:31px; overflow:hidden;}
+.scrollWrapp .title{ width:89px; height:31px; background:url(../images/scroll_title.jpg) no-repeat; float:left;}
+.scrollWrapp .title h3{ padding-left:10px; font-size:14px; color:#fff;}
+.scrollWrapp .rightScroll{ width:870px; height:29px; line-height:29px; border-top:#d6d6d6 1px solid; border-right:#d6d6d6 1px solid; border-bottom:#d6d6d6 1px solid; float:left;}
+.scrollWrapp .rightScroll span{ margin-right:16px; float: right;}
+.scrollWrapp .rightScroll a{ color:#333;}
+.scrollWrapp .rightScroll a:hover{color:#da251d;  text-decoration:underline;}
+.scrollWrapp .rightScroll ul.newsList{ width:; line-height:; overflow:hidden; float:left;}
+.scrollWrapp .rightScroll ul.newsList li{ padding-left:15px; line-height:29px;}
+.scrollWrapp .rightScroll ul.newsList li span{ margin-right:0; margin-left:20px; float:none;}
+/* Product */
+.main{ margin-top:2px; height:196px; background:url(../images/index_main_bg.jpg) repeat-x; overflow:hidden;}
+.main .title{ margin-top:10px; padding-left:30px; height:30px; line-height:30px; font-size:; font-weight:bold; color:;}
+.main .proScrollWrapp{ height:156px;}
+.main .proScrollWrapp .leftBtn, .main .proScrollWrapp .rightBtn{ margin-top:62px; margin-right:10px; margin-left:10px; width:10px; height:20px; float:left; display:inline; cursor:pointer;}
+.main .proScrollWrapp .leftBtn img,.main .proScrollWrapp .rightBtn img{ width:10px; height:20px; border:none;}
+.main .proScrollWrapp .proScrollDiv{ width:900px; float:left; display:inline; overflow:hidden;}
+.main .proScrollWrapp .proScrollDiv ul{ list-style:none; overflow:hidden;}
+.main .proScrollWrapp .proScrollDiv ul li{ width:320px; text-align:left; float:left;}
+.main .proScrollWrapp .proScrollDiv ul li img{ margin-right:5px; width:150px; height:115px; border:none; float:left; display:inline;}
+.main .proScrollWrapp .proScrollDiv ul li dl{ width:120px; text-align:left; line-height:18px;float:left;}
+.main .proScrollWrapp .proScrollDiv ul li dl dt{ margin-top:3px; height:24px; line-height:24px;}
+.main .proScrollWrapp .proScrollDiv ul li dl dt a{ font-weight:bold;}
+.main .proScrollWrapp .proScrollDiv ul li dl dt a:hover{ color:#da251d; text-decoration:underline;}
+.main .proScrollWrapp .proScrollDiv ul li dl dd{ padding-right:5px; line-height:18px;}
+/*Scroll Css*/
+.ScrCont {width:10000000px;}
+#List1,#List2 { margin:0; padding:0; margin-left:2px; padding-top:10px; float:left; display:inline;}
+#List2{ list-style:none;}
+#List2 li { width:300px; height:; float:left; }
+#List2 li img{ margin-right:8px; width:150px; height:115px; border:none; float:left; display:inline; }
+#List2 li { text-align:center;display:block;}
+
+.quickServices{ height:148px; background:url(../images/quickServices_bg.jpg) repeat-x #fff; overflow:hidden;}
+.quickServices .title{ padding-left:30px;  margin-top:10px; height:24px; line-height:24px; font-size:14px; font-weight:bold; color:;}
+.quickServices ul{ overflow:hidden;}
+.quickServices ul li{ margin-left:29px; padding-top:12px; padding-bottom:12px; width:210px; border-right:#e2e2e2 1px solid; float:left; overflow:hidden; display:inline;}
+.quickServices ul li.lastLi{ border-right:none;}
+.quickServices ul li img{ margin-right:12px; width:44px; height:44px; border:none; float:left; display:inline;}
+.quickServices ul li dl{ width:110px; float:left; ine-height:18px; font-size:12px; overflow:hidden; clear:right;}
+.quickServices ul li dl dt a{ font-weight:bold;}
+.quickServices ul li dl dt a:hover{ color:#da251d; text-decoration:underline;}

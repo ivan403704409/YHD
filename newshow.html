@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>盈和德科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+
+<body>
+    <!--Header-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/ffz.js"></script>
+    <script type="text/javascript" src="data/products.js"></script>
+    <div class="headerLayer">
+        <div class="header">
+            <div class="top">
+                <div class="logo"></div>
+                <div class="searchLayer">
+                    <span><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>&nbsp;&nbsp;</span>
+                    <input class="keywords" id="keywords" name="keywords" type="text" value="输入关健字" onfocus="javascript:if(this.value==&#39;输入关健字&#39;)this.value=&#39;&#39;;" onblur="javascript:if(this.value==&#39;&#39;)this.value=&#39;输入关健字&#39;">
+                    <input class="subBtn" type="image" src="images/subBtn.jpg" onclick="">
+                </div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a title="首页" href="index.html">首页</a> </li>
+                <li class=""><a title="公司简介" href="content.html">关于我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                        <li class=""><a href="#">公司简介</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                        <li><a href="#">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="产品中心" href="product.html">产品中心</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                        <li><a href="#">教育投影机</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="服务与支持" href="content.html">服务与支持</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                        <li><a href="#">经销商专区</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="人力招聘" href="content.html">人力招聘</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                        <li><a href="#">最新职缺</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="联系我们" href="content.html">联系我们</a>
+                    <ul class="navMenu" style="display: none;">
+                        <li class=""><a href="#">联系我们</a></li>
+                        <li><a href="#">留言反馈</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#nav li").hover(function () {
+                $(this).children("ul.navMenu").slideDown();
+                $(this).addClass("navHere");
+            }, function () {
+                $(this).children("ul.navMenu").slideUp();
+                $(this).removeClass("navHere");
+            });
+        });
+    </script>
+    <!--Header End-->
+    <div class="wrapper">
+        <div class="subBanner">
+            <img alt="banner" src="images/newsBanner.jpg"></div>
+        <div class="container">
+
+            <div class="main">
+                <div class="leftSide">
+                    <ul class="menu">
+                        <li class="title">新闻中心</li>
+
+                        <li>
+                            <a href="#">某某新闻</a>
+                        </li>
+
+                        <li>
+                            <a href="#">产品资讯</a>
+                        </li>
+
+                        <li>
+                            <a href="#">优惠活动</a>
+                        </li>
+
+                    </ul>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="常见问题" src="images/question_img.jpg"></a>
+                    </div>
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="联系我们" src="images/contact_img.jpg"></a>
+                    </div>
+
+                </div>
+                <div class="rightSide">
+                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt;  &gt; 新闻中心 &nbsp;&gt;&nbsp;<a href="#">某某新闻</a></span></div>
+                    <div class="titleBar">
+                        某某新闻
+            
+                    </div>
+                    <div class="content">
+                        <h2 id="news_title">ASK Proxima全系列产品亮相美国InfoComm2014</h2>
+                        <i class="date_i">作者：管理员 来源：本站 浏览：98 发布时间：2014-6-25 9:40:18</i>
+                        <div class="content_box">
+                            <p>
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">为期三天的InfoComm14（国际视听集成设备与技术展）于6月20日在美国拉斯维加斯落下帷幕。作为全球视听领域规格最高、最具影响力的专业展会，美国InfoComm展览所展示的产品涉及投影、各种技术显示墙、控制系统、接口矩阵、屏幕、会议系统以及显示周边设备和创意应用产品等等，方案囊括了教育、交通、通讯、娱乐、建筑、安防及公共卫生等多个领域。</span><br>
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">纵观整个展会，不难看出，显示技术依然引领创意影像。投影方面的热点集中在激光、4K和短焦这三个方面，很多亮点可循，方案已经成为展览重点，各商家不遗余力，将数以百计的经典方案精心演绎。作为国际领先的微显示投影产品技术和方案提供商ASK Proxima，一直依托自主创新的技术优势和国际一流的研发团队，用为顾客创造一流视觉体验的执着态度，为用户提供前沿的数字视觉解决方案。而本届InfoComm14上ASK Proxima不仅带来了全系列的产品，更提供了许多优秀的解决方案，精湛的投影技术和丰富的表现形式瞬间让ASK Proxima成为全场焦点。</span>
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250936558034.JPG">
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250937315222.JPG">
+                            </p>
+                            <p align="left">
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">ASK Proxima展馆外观简约大方、让产品淋漓呈现，一目了然！蓝白相间的主色调融合现场影音结合的舒雅氛围，彰显出ASK Proxima的科技感和时尚感。ASK Proxima携带了目前市场主流显示技术LCD、DLP、LCOS、LED多种集成产品解决方案亮相。同时呈现的还有最新短焦、长焦、超短焦、工程等系列投影机产品，凸显了ASK Proxima在产品研发与创新上的显著实力。</span><br>
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">工程机领域的展示是ASK Proxima在本届展会上的一大重点，并且携带了其最新高亮工程投影机A2系列亮相。ASK Proxima新品工程投影机A2拥有5500流明亮度，具备XGA（1024*768）和5000:1对比度。为了满足日趋增长的使用需求，该机在功能方面也有了进一步完善。而且A2非常适合中大型教室和会议室使用。为节约用户后期使用成本，A2还加入先进的节能技术，该机最长寿命可达4000小时，为用户带来极具高性价比产品。</span>
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250938104597.JPG">
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250938292566.JPG">
+                            </p>
+                            <p align="left">
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">2014年世界杯正酣战的大前提下，投影行业注定是不凡，世界杯让人们感受到了科技融合文化所带来的震撼力，而世界杯就像一个引爆点，将投影行业再次推向最高点。本届InfoComm，ASK Proxima针对投影新兴领域、娱乐市场、家用市场集中展示了新的研发技术和产品。亮相的ASK Proxima新品短焦投影机S4系列拥有3600流明亮度，具备XGA（1024*768）和高达8000:1对比度，0.79M可投80吋的画面，满足日趋增长的用户使用需求，同时也拓宽了该系列投影机在家用及娱乐领域的应用。</span>
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250939034909.JPG">
+                            </p>
+                            <p align="center">
+                                <img alt="" src="images/201406250939121316.jpg">
+                            </p>
+                            <p align="left">
+                                <span style="font-family: Microsoft YaHei; font-size: 14px;">ASK Proxima作为全球领先的微显示投影技术研发、高端制造和系统集成方案提供商，凭借自主创新的研发实力和不断创新的投影技术，以及对全球市场的深入研究和敏锐洞察力，创造出丰富的智能化投影产品及专业定制化的灵活投影技术系统解决方案，使全球市场份额不断提升的同时也在InfoComm展会现场让人瞩目。一直以来，ASK Proxima不断整合自身资源优势，致力推出富有创新性的投影应用解决方案和投影机产品，引领全球投影事业新的飞越。</span>
+                            </p>
+                            <p align="center">
+                                &nbsp;
+                            </p>
+                        </div>
+                        <div class="p_n_b">
+
+                            <a class="previous" href="#">« 上一篇</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
