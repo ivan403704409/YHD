@@ -20,85 +20,27 @@
         <div class="header">
             <div class="top">
                 <div class="logo"></div>
-                <div class="searchLayer">
-                    <span><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>&nbsp;&nbsp;</span>
-                    <input class="keywords" id="keywords" name="keywords" type="text" value="输入关健字" onfocus="javascript:if(this.value==&#39;输入关健字&#39;)this.value=&#39;&#39;;" onblur="javascript:if(this.value==&#39;&#39;)this.value=&#39;输入关健字&#39;">
-                    <input class="subBtn" type="image" src="images/subBtn.jpg" onclick="">
-                </div>
             </div>
             <ul class="nav" id="nav">
                 <li><a title="首页" href="index.html">首页</a> </li>
                 <li class=""><a title="公司简介" href="content.html">关于我们</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                    </ul>
                 </li>
                 <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                    </ul>
                 </li>
                 <li class=""><a title="产品中心" href="product.html">产品中心</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                    </ul>
                 </li>
-                <li class=""><a title="服务与支持" href="content.html">服务与支持</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                    </ul>
-                </li>
-                <li class=""><a title="人力招聘" href="content.html">人力招聘</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                    </ul>
-                </li>
-                <li class=""><a title="联系我们" href="content.html">联系我们</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li class=""><a href="#">联系我们</a></li>
-                        <li><a href="#">留言反馈</a></li>
-                    </ul>
+                <li class=""><a title="联系我们" href="contact.html">联系我们</a>
+
                 </li>
             </ul>
         </div>
     </div>
     <script type="text/javascript">
-        $(function () {
-            $("#nav li").hover(function () {
+        $(function(){
+            $("#nav li").hover(function(){
                 $(this).children("ul.navMenu").slideDown();
                 $(this).addClass("navHere");
-            }, function () {
+            },function(){
                 $(this).children("ul.navMenu").slideUp();
                 $(this).removeClass("navHere");
             });

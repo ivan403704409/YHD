@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>盈和德科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+<body>
+    <!--Header-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/ffz.js"></script>
+    <script type="text/javascript" src="data/products.js"></script>
+    <div class="headerLayer">
+        <div class="header">
+            <div class="top">
+                <div class="logo"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a title="首页" href="index.html">首页</a> </li>
+                <li class=""><a title="公司简介" href="content.html">关于我们</a>
+                </li>
+                <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
+                </li>
+                <li class=""><a title="产品中心" href="product.html">产品中心</a>
+                </li>
+                <li class=""><a title="联系我们" href="contact.html">联系我们</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $("#nav li").hover(function(){
+                $(this).children("ul.navMenu").slideDown();
+                $(this).addClass("navHere");
+            },function(){
+                $(this).children("ul.navMenu").slideUp();
+                $(this).removeClass("navHere");
+            });
+        });
+    </script>
+    <!--Header End-->
+    <div class="wrapper">
+        <div class="subBanner">
+            <img alt="banner" src="images/aboutBanner.jpg"></div>
+        <div class="container">
+            <div class="main">
+                <div class="leftSide">
+                    <ul class="menu">
+                        <li class="title">走进盈和德</li>
+                        <li><a href="content.html">公司简介</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                    <!-- <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="常见问题" src="images/question_img.jpg"></a>
+                    </div> -->
+                    <div class="leftQuickLink">
+                        <a href="#">
+                            <img alt="联系我们" src="images/contact_img.jpg"></a>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt; 走进盈和德 &gt; 联系我们</span></div>
+                    <div class="titleBar">联系我们</div>
+                    <div class="content">
+                        <p>
+                            盈和德科技有限公司  
+                            http://www.xxx.com
+                            Tel: 
+                            Fax:
+                            MAIL:
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

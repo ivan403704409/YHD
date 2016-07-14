@@ -17,85 +17,27 @@
         <div class="header">
             <div class="top">
                 <div class="logo"></div>
-                <div class="searchLayer">
-                    <span><a href="#">登录</a>&nbsp;&nbsp;<a href="#">注册</a>&nbsp;&nbsp;</span>
-                    <input class="keywords" id="keywords" name="keywords" type="text" value="输入关健字" onfocus="javascript:if(this.value==&#39;输入关健字&#39;)this.value=&#39;&#39;;" onblur="javascript:if(this.value==&#39;&#39;)this.value=&#39;输入关健字&#39;">
-                    <input class="subBtn" type="image" src="images/subBtn.jpg" onclick="">
-                </div>
             </div>
             <ul class="nav" id="nav">
                 <li><a title="首页" href="index.html">首页</a> </li>
                 <li class=""><a title="公司简介" href="content.html">关于我们</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                        <li class=""><a href="#">公司简介</a></li>
-                    </ul>
                 </li>
                 <li class=""><a title="新闻中心" href="news.html">新闻中心</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                        <li><a href="#">公司新闻</a></li>
-                    </ul>
                 </li>
                 <li class=""><a title="产品中心" href="product.html">产品中心</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                        <li><a href="#">教育投影机</a></li>
-                    </ul>
                 </li>
-                <li class=""><a title="服务与支持" href="content.html">服务与支持</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                        <li><a href="#">经销商专区</a></li>
-                    </ul>
-                </li>
-                <li class=""><a title="人力招聘" href="content.html">人力招聘</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                        <li><a href="#">最新职缺</a></li>
-                    </ul>
-                </li>
-                <li class=""><a title="联系我们" href="content.html">联系我们</a>
-                    <ul class="navMenu" style="display: none;">
-                        <li class=""><a href="#">联系我们</a></li>
-                        <li><a href="#">留言反馈</a></li>
-                    </ul>
+                <li class=""><a title="联系我们" href="contact.html">联系我们</a>
+                    
                 </li>
             </ul>
         </div>
     </div>
     <script type="text/javascript">
-        $(function () {
-            $("#nav li").hover(function () {
+        $(function(){
+            $("#nav li").hover(function(){
                 $(this).children("ul.navMenu").slideDown();
                 $(this).addClass("navHere");
-            }, function () {
+            },function(){
                 $(this).children("ul.navMenu").slideUp();
                 $(this).removeClass("navHere");
             });
@@ -109,24 +51,21 @@
             <div class="main">
                 <div class="leftSide">
                     <ul class="menu">
-                        <li class="title">走进某某</li>
-                        <li><a href="images/xx.htm">公司简介</a></li>
-                        <li><a href="#">某某里程碑</a></li>
-                        <li><a href="#">品牌文化</a></li>
-                        <li><a href="#">社会责任</a></li>
-                        <li><a href="#">荣誉奖项</a></li>
+                        <li class="title">走进盈和德</li>
+                        <li><a href="#">公司简介</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
                     </ul>
-                    <div class="leftQuickLink">
+                    <!-- <div class="leftQuickLink">
                         <a href="#">
                             <img alt="常见问题" src="images/question_img.jpg"></a>
-                    </div>
+                    </div> -->
                     <div class="leftQuickLink">
                         <a href="#">
                             <img alt="联系我们" src="images/contact_img.jpg"></a>
                     </div>
                 </div>
                 <div class="rightSide">
-                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt; 走进某某 &gt; 公司简介</span></div>
+                    <div class="pagePosition"><span>您所在的位置：<a href="#">首页</a> &gt; 走进盈和德 &gt; 公司简介</span></div>
                     <div class="titleBar">公司简介</div>
                     <div class="content">
                         <p>
