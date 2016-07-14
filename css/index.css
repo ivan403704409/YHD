@@ -22,13 +22,13 @@
 .main .proScrollWrapp .leftBtn img,.main .proScrollWrapp .rightBtn img{ width:10px; height:20px; border:none;}
 .main .proScrollWrapp .proScrollDiv{ width:900px; float:left; display:inline; overflow:hidden;}
 .main .proScrollWrapp .proScrollDiv ul{ list-style:none; overflow:hidden;}
-.main .proScrollWrapp .proScrollDiv ul li{ width:320px; text-align:left; float:left;}
+.main .proScrollWrapp .proScrollDiv ul li{ width:320px; text-align:left; float:left; height: 115px; overflow: hidden; }
 .main .proScrollWrapp .proScrollDiv ul li img{ margin-right:5px; width:150px; height:115px; border:none; float:left; display:inline;}
 .main .proScrollWrapp .proScrollDiv ul li dl{ width:120px; text-align:left; line-height:18px;float:left;}
 .main .proScrollWrapp .proScrollDiv ul li dl dt{ margin-top:3px; height:24px; line-height:24px;}
 .main .proScrollWrapp .proScrollDiv ul li dl dt a{ font-weight:bold;}
 .main .proScrollWrapp .proScrollDiv ul li dl dt a:hover{ color:#da251d; text-decoration:underline;}
-.main .proScrollWrapp .proScrollDiv ul li dl dd{ padding-right:5px; line-height:18px;}
+.main .proScrollWrapp .proScrollDiv ul li dl dd{ padding-right:5px; line-height:18px; }
 /*Scroll Css*/
 .ScrCont {width:10000000px;}
 #List1,#List2 { margin:0; padding:0; margin-left:2px; padding-top:10px; float:left; display:inline;}
